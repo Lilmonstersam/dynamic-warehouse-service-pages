@@ -187,3 +187,42 @@ body.dws-revised .dws-hero-sub p{font-size:18px!important;line-height:1.55!impor
   body.dws-revised .dws-page-content h2,body.dws-revised #dws-main>.dws-native-section h2{font-size:22.5px!important;}
   body.dws-revised .dws-page-content h3{font-size:22px!important;}
 }
+
+/* ---------------------------------------------------------------
+   Hero parity with /mezzanine-floors/
+   Framing, vertical rhythm and CTA text styles are taken from the
+   mezzanine-floors hero so every mezzanine page reads the same.
+   --------------------------------------------------------------- */
+body.dws-revised .dws-reference-hero .dws-hero-sub p,
+body.dws-revised .dws-page-content .dws-hero-sub p{font-size:18px!important;line-height:1.55!important;font-weight:300!important;max-width:680px;margin:0 0 27px!important;}
+body.dws-revised .dws-reference-hero .dws-aligned-hero__inner>div>h1,
+body.dws-revised .dws-reference-hero .dws-aligned-hero__inner>div>.dws-slider-title{max-width:720px;margin:0 0 22px!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas{margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:14px;}
+body.dws-revised .dws-page-content .dws-hero-ctas a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;margin:0!important;padding:16px 24px!important;border:2px solid #169499!important;border-radius:0!important;background:#169499!important;color:#fff!important;font-size:13px!important;font-weight:300!important;line-height:1.3!important;letter-spacing:.035em!important;text-transform:uppercase;text-decoration:none;box-shadow:none!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas a:hover{border-color:#11787c!important;background:#11787c!important;color:#fff!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas .dws-hero-cta2{border-color:#b9c1c7!important;background:transparent!important;padding-left:24px!important;padding-right:24px!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas .dws-hero-cta2:hover{border-color:#169499!important;background:#169499!important;}
+@media(max-width:690px){
+  body.dws-revised .dws-page-content .dws-hero-ctas{display:grid;grid-template-columns:1fr;}
+  body.dws-revised .dws-page-content .dws-hero-ctas a{width:100%;}
+}
+
+/* ---------------------------------------------------------------
+   Hero measure parity with /mezzanine-floors/
+   The theme pins .container to a fixed width with higher priority,
+   so the hero gutter is taken off .dws-aligned-hero__inner instead —
+   the same measure .dws-floor-hero-copy__inner uses on the reference
+   page: calc(100% - 160px) / 1300, stepping to 80px then 44px.
+   --------------------------------------------------------------- */
+body.dws-revised .dws-reference-hero .container,
+body.dws-revised .dws-native-hero-slider .container{width:100%!important;max-width:none!important;margin:0!important;padding:0!important;}
+body.dws-revised .dws-reference-hero .dws-aligned-hero__inner,
+body.dws-revised .dws-native-hero-slider .dws-aligned-hero__inner{width:calc(100% - 160px)!important;max-width:1300px!important;margin-left:auto!important;margin-right:auto!important;}
+@media(max-width:999px){
+  body.dws-revised .dws-reference-hero .dws-aligned-hero__inner,
+  body.dws-revised .dws-native-hero-slider .dws-aligned-hero__inner{width:calc(100% - 80px)!important;}
+}
+@media(max-width:690px){
+  body.dws-revised .dws-reference-hero .dws-aligned-hero__inner,
+  body.dws-revised .dws-native-hero-slider .dws-aligned-hero__inner{width:calc(100% - 44px)!important;}
+}
