@@ -10,7 +10,11 @@
     'planning permit & building permit support':'Permit support',
     'mezzanine types':'Types',
     'mezzanine options':'Options',
-    'faq':'FAQs'
+    'faq':'FAQs',
+    'is your warehouse suitable for a raised storage area?':'Warehouse suitability',
+    'choose how to use the space':'Applications',
+    'designed for storage and working space':'Design & structure',
+    'explore other mezzanine floor solutions':'Other solutions'
   };
   var OFFSET = 150;
 
