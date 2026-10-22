@@ -201,13 +201,4 @@ body.dws-revised .dws-page-content .dws-pgrid p,.dws-page-content .dws-pgrid p{f
 @media (max-width:900px){.dws-pgrid{flex-direction:column;}.dws-pgrid__large .dws-pgrid__img{min-height:320px;height:320px;}.dws-pgrid__overlay{position:relative;top:0;left:0;max-width:100%;margin-top:-40px;}.dws-pgrid__btn--full{width:auto!important;min-width:120px;justify-content:center!important;gap:12px;}}
 @media (max-width:690px){.dws-pgrid__overlay,.dws-pgrid__small{padding:20px;}.dws-pgrid__small .dws-pgrid__img{max-width:100%;}}
 
-/* Keep the two requested project galleries even, regardless of copy length. */
-body.page-id-540 #projects .dws-pgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;}
-body.page-id-540 #projects .dws-pgrid__large{position:static;display:flex;flex-direction:column;background:#fff;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.03);overflow:hidden;text-align:left;}
-body.page-id-540 #projects .dws-pgrid__large .dws-pgrid__img{height:150px;min-height:0;max-height:none;border-radius:0;}
-body.page-id-540 #projects .dws-pgrid__overlay{position:static;display:flex;flex:1;flex-direction:column;max-width:none;padding:25px;border-radius:0;box-shadow:none;}
-body.page-id-540 #projects .dws-pgrid__col{display:contents;}
-body.page-id-540 #projects .dws-pgrid__small{display:flex;flex-direction:column;}
-body.page-id-540 #projects .dws-pgrid__small .dws-pgrid__img{max-width:none;height:150px;}
-body.page-id-540 #projects .dws-pgrid__btnwrap{margin-top:auto;}
-@media (max-width:900px){body.page-id-540 #projects .dws-pgrid{grid-template-columns:1fr;}body.page-id-540 #projects .dws-pgrid__large .dws-pgrid__img,body.page-id-540 #projects .dws-pgrid__small .dws-pgrid__img{height:210px;}body.page-id-540 #projects .dws-pgrid__overlay{margin-top:0;}body.page-id-540 #projects .dws-pgrid__btn--full{width:auto!important;min-width:120px;justify-content:center!important;gap:12px;}}
+/* (2026-10-22) The page-id-540 even 2x2 projects grid was removed: all pages now use the large + stacked layout. */

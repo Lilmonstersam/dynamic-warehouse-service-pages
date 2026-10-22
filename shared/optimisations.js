@@ -14,7 +14,18 @@
     'is your warehouse suitable for a raised storage area?':'Warehouse suitability',
     'choose how to use the space':'Applications',
     'designed for storage and working space':'Design & structure',
-    'explore other mezzanine floor solutions':'Other solutions'
+    'explore other mezzanine floor solutions':'Other solutions',
+    'mezzanine floor builders in melbourne':'Melbourne',
+    'mezzanine floors we build in melbourne':'Applications',
+    'clear-span, structural or rack-supported':'Structure',
+    'is your warehouse suitable for a mezzanine floor?':'Warehouse suitability',
+    'mezzanine permits and compliance in victoria':'Permits',
+    'from site measure to installation':'Process',
+    'melbourne mezzanine projects':'Projects',
+    'why melbourne businesses choose dynamic':'Why Dynamic',
+    'our mezzanine floor solutions':'Solutions',
+    'more floor space without relocating':'Why modular',
+    'about the process':'About the process'
   };
   var OFFSET = 150;
 
